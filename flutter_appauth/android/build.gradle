@@ -37,5 +37,10 @@ android {
 
 dependencies {
     //implementation 'net.openid:appauth:0.11.1'
-    implementation 'com.github.hsiami:AppAuth-Android:v1.0'
+    //implementation 'com.github.hsiami:AppAuth-Android:v1.0'
+    implementation('com.github.hsiami:AppAuth-Android') {
+        version {
+            branch = 'release'
+        }
+    }
 }
