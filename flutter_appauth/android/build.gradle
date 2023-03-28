@@ -35,5 +35,5 @@ android {
 
 dependencies {
     //implementation 'net.openid:appauth:0.11.1'
-    implementation 'com.github.hsiami.AppAuth-Android:net.openid.appauth:master'
+    implementation 'com.github.hsiami.AppAuth-Android:net.openid.appauth'
 }
