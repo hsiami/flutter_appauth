@@ -1,4 +1,12 @@
 rootProject.name = 'flutter_appauth'
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' } // <- here we go
+    }
+}
 //sourceControl {
 //    gitRepository("https://github.com/hsiami/AppAuth-Android.git") {
 //        producesModule("com.github.hsiami:AppAuth-Android")
