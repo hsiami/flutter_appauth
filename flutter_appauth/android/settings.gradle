@@ -1,7 +1,5 @@
 rootProject.name = 'flutter_appauth'
 sourceControl {
-    gitRepository("https://github.com/hsiami/AppAuth-Android.git") {
-        producesModule("com.github.hsiami:AppAuth-Android")
-    }
+    gitRepository("https://github.com/hsiami/AppAuth-Android.git")
 }
 
