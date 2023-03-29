@@ -2,23 +2,23 @@ group 'io.crossingthestreams.flutterappauth'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    repositories {    
-        google()
-        mavenCentral()
-    }
+    //repositories {    
+    //    google()
+    //    mavenCentral()
+    //}
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.3'
     }
 }
 
-rootProject.allprojects {
-    repositories {
-        maven { url "https://jitpack.io" }
-        google()
-        mavenCentral()
-    }
-}
+//rootProject.allprojects {
+//    repositories {
+//        maven { url "https://jitpack.io" }
+//        google()
+//        mavenCentral()
+//    }
+//}
 
 apply plugin: 'com.android.library'
 
