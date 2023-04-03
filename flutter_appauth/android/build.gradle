@@ -17,6 +17,9 @@ rootProject.allprojects {
         maven { url "https://jitpack.io" }
         google()
         mavenCentral()
+        flatDir {
+            dirs("libs")
+        }
     }
 }
 
@@ -36,5 +39,6 @@ android {
 
 dependencies {
     //implementation 'net.openid:appauth:0.11.1'
-    implementation 'com.github.hsiami:AppAuth-Android:v1.0'
+//    implementation 'com.github.hsiami:AppAuth-Android:v1.0'
+    implementation(name:'app_auth', ext:'aar')
 }
